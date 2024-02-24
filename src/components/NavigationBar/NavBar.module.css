@@ -1,0 +1,31 @@
+.container {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+  background-color: #3788d8;
+  width: 95%;
+  margin: 2% 2.5% 2% 2.5%;
+  border-radius: 15px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.list li {
+  margin: 30px 10px 30px 10px;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.custom-link {
+  color: white;
+  text-decoration: none;
+}
